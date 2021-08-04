@@ -15,10 +15,7 @@ export default function Home() {
       <main className="home-page" onWheel={on_wheel}>
         <Menu></Menu>
         <Principal active></Principal>
-        <Principal></Principal>
-        <Principal></Principal>
-        <Principal></Principal>
-        {/* <Projetos></Projetos> */}
+        <Projetos></Projetos>
       </main>
   );
 
