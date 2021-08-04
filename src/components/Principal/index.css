@@ -1,22 +1,22 @@
-section.content {
+section.principal {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 2rem;
+  padding: 8rem 1rem 0;
 }
 
-section.content .left {
+section.principal .left {
   max-width: 40%;
 }
 
-section.content .left .hi {
+section.principal .left .hi {
   font-size: 38px;
   font-weight: 400;
   position: relative;
   color: var(--green);
 }
 
-section.content .left .hi::before {
+section.principal .left .hi::before {
   content: '›';
   position: absolute;
   left: -1.5rem;
@@ -29,36 +29,36 @@ section.content .left .hi::before {
   animation: blink 2s infinite linear;
 }
 
-section.content .left .title {
+section.principal .left .title {
   font-size: 28px;
   font-weight: 400;
   margin-bottom: 4rem;
 }
 
-section.content .left .title .colored {
+section.principal .left .title .colored {
   color: var(--green);
 }
 
-section.content .left .desc p {
+section.principal .left .desc p {
   line-height: 26px;
   font-size: 16px;
   margin-bottom: 1.5rem;
 }
 
-section.content .right {
+section.principal .right {
   max-width: 50%;
   width: 100%;
   position: relative;
 }
 
-section.content .right .laptop {
+section.principal .right .laptop {
   width: 500px;
   margin-top: 10rem;
   margin-left: 10rem;
   animation: fade-top 1s ease-in-out;
 }
 
-section.content .right .phone {
+section.principal .right .phone {
   position: absolute;
   left: 5%;
   top: 20%;
@@ -88,9 +88,9 @@ section.content .right .phone {
 }
 
 @media screen and (max-width: 767px) {
-  section.content .left {
+  section.principal .left {
     max-width: 100%;
   }
 
-  section.content .right { display: none; }
+  section.principal .right { display: none; }
 }

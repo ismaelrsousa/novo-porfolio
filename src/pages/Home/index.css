@@ -1,6 +1,17 @@
 main.home-page {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-color: #232831;
   overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+main.home-page > section {
+  opacity: 0;
+  transition: opacity .2s;
+  transition-delay: .1s;
+}
+
+main.home-page > section.active {
+  opacity: 1;
 }

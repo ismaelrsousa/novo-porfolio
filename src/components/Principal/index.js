@@ -5,9 +5,9 @@ import "./index.css";
 import LaptopImg from "../../images/decoration/laptop.svg";
 import PhoneImg from "../../images/decoration/phone.svg";
 
-export default function Principal() {
+export default function Principal(props) {
   return (
-    <section className="content container">
+    <section className={props.active? "principal container active" : "principal container"}>
       <div className="left">
         <div className="hi">olá,</div>
         <h2 className="title">
