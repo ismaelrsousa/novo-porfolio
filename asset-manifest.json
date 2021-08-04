@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/novo-portfolio/static/css/main.c1d3844c.chunk.css",
-    "main.js": "/novo-portfolio/static/js/main.7e8fd2e7.chunk.js",
-    "main.js.map": "/novo-portfolio/static/js/main.7e8fd2e7.chunk.js.map",
+    "main.css": "/novo-portfolio/static/css/main.8c43b715.chunk.css",
+    "main.js": "/novo-portfolio/static/js/main.c35d9f42.chunk.js",
+    "main.js.map": "/novo-portfolio/static/js/main.c35d9f42.chunk.js.map",
     "runtime-main.js": "/novo-portfolio/static/js/runtime-main.cc930f90.js",
     "runtime-main.js.map": "/novo-portfolio/static/js/runtime-main.cc930f90.js.map",
     "static/js/2.b43d431a.chunk.js": "/novo-portfolio/static/js/2.b43d431a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1b80cc25.chunk.js": "/novo-portfolio/static/js/3.1b80cc25.chunk.js",
     "static/js/3.1b80cc25.chunk.js.map": "/novo-portfolio/static/js/3.1b80cc25.chunk.js.map",
     "index.html": "/novo-portfolio/index.html",
-    "static/css/main.c1d3844c.chunk.css.map": "/novo-portfolio/static/css/main.c1d3844c.chunk.css.map",
+    "static/css/main.8c43b715.chunk.css.map": "/novo-portfolio/static/css/main.8c43b715.chunk.css.map",
     "static/js/2.b43d431a.chunk.js.LICENSE.txt": "/novo-portfolio/static/js/2.b43d431a.chunk.js.LICENSE.txt",
     "static/media/laptop.9fa60a42.svg": "/novo-portfolio/static/media/laptop.9fa60a42.svg",
     "static/media/phone.439a7870.svg": "/novo-portfolio/static/media/phone.439a7870.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.cc930f90.js",
     "static/js/2.b43d431a.chunk.js",
-    "static/css/main.c1d3844c.chunk.css",
-    "static/js/main.7e8fd2e7.chunk.js"
+    "static/css/main.8c43b715.chunk.css",
+    "static/js/main.c35d9f42.chunk.js"
   ]
 }
