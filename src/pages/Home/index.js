@@ -1,22 +1,17 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 
 import './index.css';
 
 import Menu from '../../components/Menu';
-import Content from '../../components/Content';
+import Principal from '../../components/Principal';
+import Projetos from '../../components/Projetos';
 
-class Home extends Component {
-    state = {  }
-
-    render() { 
-        return ( 
-            <main className="home-page">
-              <Menu></Menu>
-              <Content></Content>
-            </main>
-        );
-    }
+export default function Home() {
+  return ( 
+      <main className="home-page">
+        <Menu></Menu>
+        <Principal></Principal>
+        <Projetos></Projetos>
+      </main>
+  );
 }
- 
-export default Home;
